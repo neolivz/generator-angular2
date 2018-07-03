@@ -17,7 +17,9 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "yeoman-generator",
@@ -33,11 +35,13 @@
   "dependencies": {
     "chalk": "1.0.0",
     "lodash": "3.7.0",
-    "npm-check": "3.2.10",
-    "yeoman-generator": "0.19.2",
-    "yosay": "1.0.2"
+    "npm-check": "5.0.1",
+    "yeoman-generator": "0.23.0",
+    "yosay": "1.0.2",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "mocha": "2.2.4"
-  }
+  },
+  "snyk": true
 }
