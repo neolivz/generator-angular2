@@ -33,7 +33,7 @@
   "dependencies": {
     "chalk": "1.0.0",
     "lodash": "3.7.0",
-    "npm-check": "3.2.10",
+    "npm-check": "4.0.0",
     "yeoman-generator": "0.19.2",
     "yosay": "1.0.2"
   },
